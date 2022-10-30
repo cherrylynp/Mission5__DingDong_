@@ -1,0 +1,34 @@
+public class DisplayDingDong {
+
+    public static void DingDong() {
+        
+        
+        List<Integer> input = new list<Integer>{12, 20, 30, 17};
+            for(Integer  I : input){
+                
+                String multipleOf3 = 'Ding';
+                String multipleOf5 = 'Dong';
+                
+       			 //If "input" is multiples of both 3 and 5, display "DingDong"
+        		if(math.mod(I, 3) == 0 && math.mod(I, 5) ==0){
+                    system.debug(multipleOf3 + multipleOf5);
+            
+       			 }
+                  //display "Ding"
+      			  else if (math.mod(I,3) == 0){
+                       system.debug(multipleOf3);
+      			 }
+                
+                 //display "Dong"
+                  else if (math.mod(I,5) == 0){
+                        system.debug(multipleOf5);
+      			 }
+                
+                // For input that are neither multiples of 3 or 5, returns the input number.
+                else{
+                     system.debug(I);     
+                }        
+        
+        }      
+   }       
+}
